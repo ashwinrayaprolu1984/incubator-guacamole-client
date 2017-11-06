@@ -134,6 +134,12 @@ angular.module('login').directive('guacLogin', [function guacLogin() {
 
         });
 
+        /***
+         * Gets credentials from SwiftUI and login automatically
+         */
+        $scope.init = function init(){
+        	
+        };
         /**
          * Submits the currently-specified username and password to the
          * authentication service, redirecting to the main view if successful.

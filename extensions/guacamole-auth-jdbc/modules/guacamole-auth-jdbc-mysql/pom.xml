@@ -38,6 +38,7 @@
         <artifactId>guacamole-auth-jdbc</artifactId>
         <version>0.9.13-incubating</version>
         <relativePath>../../</relativePath>
+        
     </parent>
 
     <build>
@@ -49,8 +50,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.3</version>
                 <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
+                    <source>1.7</source>
+                    <target>1.7</target>
                     <compilerArgs>
                         <arg>-Xlint:all</arg>
                         <arg>-Werror</arg>
@@ -74,6 +75,10 @@
                         <configuration>
                             <includeScope>runtime</includeScope>
                             <outputDirectory>${project.build.directory}/classes</outputDirectory>
+                            <!-- ignore jsr305 for both "used but undeclared" and "declared but unused" -->
+				              <ignoredDependencies>
+				                <ignoredDependency>bouncycastle:bcprov-jdk16</ignoredDependency>
+				              </ignoredDependencies>
                         </configuration>
                     </execution>
                 </executions>
@@ -121,6 +126,12 @@
             <groupId>org.apache.guacamole</groupId>
             <artifactId>guacamole-auth-jdbc-base</artifactId>
             <version>0.9.13-incubating</version>
+            <exclusions>
+		        <exclusion>  <!-- declare the exclusion here -->
+		          <groupId>bouncycastle</groupId>
+		          <artifactId>bcprov-jdk16</artifactId>
+		        </exclusion>
+		      </exclusions> 
         </dependency>
 
     </dependencies>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar" sourcepath="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.jar" sourcepath="M2_REPO/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/javax/inject/javax.inject/1/javax.inject-1.jar" sourcepath="M2_REPO/javax/inject/javax.inject/1/javax.inject-1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/javax/inject/javax.inject/1/javax.inject-1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar" sourcepath="M2_REPO/javax/annotation/jsr250-api/1.0/jsr250-api-1.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar" sourcepath="M2_REPO/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/javax/activation/activation/1.1/activation-1.1.jar" sourcepath="M2_REPO/javax/activation/activation/1.1/activation-1.1-sources.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar" sourcepath="M2_REPO/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar" sourcepath="M2_REPO/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar" sourcepath="M2_REPO/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="src" path="/guacamole-common"/>
+  <classpathentry kind="src" path="/guacamole-ext"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.jar" sourcepath="M2_REPO/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.jar" sourcepath="M2_REPO/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/webjars/webjars-servlet-2.x/1.1/webjars-servlet-2.x-1.1.jar" sourcepath="M2_REPO/org/webjars/webjars-servlet-2.x/1.1/webjars-servlet-2.x-1.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/webjars/webjars-servlet-2.x/1.1/webjars-servlet-2.x-1.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/webjars/bower/blob-polyfill/1.0.20150320/blob-polyfill-1.0.20150320.jar" sourcepath="M2_REPO/org/webjars/bower/blob-polyfill/1.0.20150320/blob-polyfill-1.0.20150320-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/webjars/bower/blob-polyfill/1.0.20150320/blob-polyfill-1.0.20150320-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/webjars/bower/filesaver/1.3.3/filesaver-1.3.3.jar" sourcepath="M2_REPO/org/webjars/bower/filesaver/1.3.3/filesaver-1.3.3-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/webjars/bower/filesaver/1.3.3/filesaver-1.3.3-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/webjars/bower/lodash/2.4.1/lodash-2.4.1.jar" sourcepath="M2_REPO/org/webjars/bower/lodash/2.4.1/lodash-2.4.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/webjars/bower/jquery/2.1.3/jquery-2.1.3.jar" sourcepath="M2_REPO/org/webjars/bower/jquery/2.1.3/jquery-2.1.3-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/webjars/bower/jquery/2.1.3/jquery-2.1.3-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/webjars/bower/angular/1.3.16/angular-1.3.16.jar" sourcepath="M2_REPO/org/webjars/bower/angular/1.3.16/angular-1.3.16-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/webjars/bower/angular-cookies/1.3.16/angular-cookies-1.3.16.jar" sourcepath="M2_REPO/org/webjars/bower/angular-cookies/1.3.16/angular-cookies-1.3.16-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/webjars/bower/angular-cookies/1.3.16/angular-cookies-1.3.16-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/webjars/bower/angular-route/1.3.16/angular-route-1.3.16.jar" sourcepath="M2_REPO/org/webjars/bower/angular-route/1.3.16/angular-route-1.3.16-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/webjars/bower/angular-touch/1.3.16/angular-touch-1.3.16.jar" sourcepath="M2_REPO/org/webjars/bower/angular-touch/1.3.16/angular-touch-1.3.16-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/webjars/bower/angular-touch/1.3.16/angular-touch-1.3.16-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/webjars/bower/angular-module-shim/0.0.4/angular-module-shim-0.0.4.jar" sourcepath="M2_REPO/org/webjars/bower/angular-module-shim/0.0.4/angular-module-shim-0.0.4-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/webjars/bower/angular-module-shim/0.0.4/angular-module-shim-0.0.4-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/webjars/bower/angular-translate/2.8.0/angular-translate-2.8.0.jar" sourcepath="M2_REPO/org/webjars/bower/angular-translate/2.8.0/angular-translate-2.8.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/webjars/bower/angular-translate/2.8.0/angular-translate-2.8.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/webjars/bower/angular-translate-interpolation-messageformat/2.8.0/angular-translate-interpolation-messageformat-2.8.0.jar" sourcepath="M2_REPO/org/webjars/bower/angular-translate-interpolation-messageformat/2.8.0/angular-translate-interpolation-messageformat-2.8.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/webjars/bower/angular-translate-interpolation-messageformat/2.8.0/angular-translate-interpolation-messageformat-2.8.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/webjars/bower/messageformat/1.0.2/messageformat-1.0.2.jar" sourcepath="M2_REPO/org/webjars/bower/messageformat/1.0.2/messageformat-1.0.2-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/webjars/bower/messageformat/1.0.2/messageformat-1.0.2-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/webjars/bower/angular-translate-loader-static-files/2.8.0/angular-translate-loader-static-files-2.8.0.jar" sourcepath="M2_REPO/org/webjars/bower/angular-translate-loader-static-files/2.8.0/angular-translate-loader-static-files-2.8.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/webjars/bower/angular-translate-loader-static-files/2.8.0/angular-translate-loader-static-files-2.8.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-websocket/8.1.1.v20120215/jetty-websocket-8.1.1.v20120215.jar" sourcepath="M2_REPO/org/eclipse/jetty/jetty-websocket/8.1.1.v20120215/jetty-websocket-8.1.1.v20120215-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/eclipse/jetty/jetty-websocket/8.1.1.v20120215/jetty-websocket-8.1.1.v20120215-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-util/8.1.1.v20120215/jetty-util-8.1.1.v20120215.jar" sourcepath="M2_REPO/org/eclipse/jetty/jetty-util/8.1.1.v20120215/jetty-util-8.1.1.v20120215-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/eclipse/jetty/jetty-util/8.1.1.v20120215/jetty-util-8.1.1.v20120215-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-io/8.1.1.v20120215/jetty-io-8.1.1.v20120215.jar" sourcepath="M2_REPO/org/eclipse/jetty/jetty-io/8.1.1.v20120215/jetty-io-8.1.1.v20120215-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/eclipse/jetty/jetty-io/8.1.1.v20120215/jetty-io-8.1.1.v20120215-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-http/8.1.1.v20120215/jetty-http-8.1.1.v20120215.jar" sourcepath="M2_REPO/org/eclipse/jetty/jetty-http/8.1.1.v20120215/jetty-http-8.1.1.v20120215-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/eclipse/jetty/jetty-http/8.1.1.v20120215/jetty-http-8.1.1.v20120215-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/websocket/websocket-api/9.0.7.v20131107/websocket-api-9.0.7.v20131107.jar" sourcepath="M2_REPO/org/eclipse/jetty/websocket/websocket-api/9.0.7.v20131107/websocket-api-9.0.7.v20131107-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.0.7.v20131107/websocket-api-9.0.7.v20131107-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/websocket/websocket-servlet/9.0.7.v20131107/websocket-servlet-9.0.7.v20131107.jar" sourcepath="M2_REPO/org/eclipse/jetty/websocket/websocket-servlet/9.0.7.v20131107/websocket-servlet-9.0.7.v20131107-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/eclipse/jetty/websocket/websocket-servlet/9.0.7.v20131107/websocket-servlet-9.0.7.v20131107-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/tomcat/tomcat-catalina/7.0.37/tomcat-catalina-7.0.37.jar" sourcepath="M2_REPO/org/apache/tomcat/tomcat-catalina/7.0.37/tomcat-catalina-7.0.37-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/tomcat/tomcat-servlet-api/7.0.37/tomcat-servlet-api-7.0.37.jar" sourcepath="M2_REPO/org/apache/tomcat/tomcat-servlet-api/7.0.37/tomcat-servlet-api-7.0.37-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/tomcat/tomcat-juli/7.0.37/tomcat-juli-7.0.37.jar" sourcepath="M2_REPO/org/apache/tomcat/tomcat-juli/7.0.37/tomcat-juli-7.0.37-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/tomcat/tomcat-annotations-api/7.0.37/tomcat-annotations-api-7.0.37.jar" sourcepath="M2_REPO/org/apache/tomcat/tomcat-annotations-api/7.0.37/tomcat-annotations-api-7.0.37-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/tomcat/tomcat-api/7.0.37/tomcat-api-7.0.37.jar" sourcepath="M2_REPO/org/apache/tomcat/tomcat-api/7.0.37/tomcat-api-7.0.37-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/tomcat/tomcat-util/7.0.37/tomcat-util-7.0.37.jar" sourcepath="M2_REPO/org/apache/tomcat/tomcat-util/7.0.37/tomcat-util-7.0.37-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/tomcat/tomcat-coyote/7.0.37/tomcat-coyote-7.0.37.jar" sourcepath="M2_REPO/org/apache/tomcat/tomcat-coyote/7.0.37/tomcat-coyote-7.0.37-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/inject/guice/3.0/guice-3.0.jar" sourcepath="M2_REPO/com/google/inject/guice/3.0/guice-3.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/com/google/inject/guice/3.0/guice-3.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" sourcepath="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/inject/extensions/guice-assistedinject/3.0/guice-assistedinject-3.0.jar" sourcepath="M2_REPO/com/google/inject/extensions/guice-assistedinject/3.0/guice-assistedinject-3.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/com/google/inject/extensions/guice-assistedinject/3.0/guice-assistedinject-3.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/com/google/inject/extensions/guice-servlet/3.0/guice-servlet-3.0.jar" sourcepath="M2_REPO/com/google/inject/extensions/guice-servlet/3.0/guice-servlet-3.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/com/google/inject/extensions/guice-servlet/3.0/guice-servlet-3.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/com/sun/jersey/jersey-server/1.17.1/jersey-server-1.17.1.jar" sourcepath="M2_REPO/com/sun/jersey/jersey-server/1.17.1/jersey-server-1.17.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/com/sun/jersey/jersey-server/1.17.1/jersey-server-1.17.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/asm/asm/3.1/asm-3.1.jar" sourcepath="M2_REPO/asm/asm/3.1/asm-3.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/sun/jersey/jersey-core/1.17.1/jersey-core-1.17.1.jar" sourcepath="M2_REPO/com/sun/jersey/jersey-core/1.17.1/jersey-core-1.17.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/com/sun/jersey/jersey-core/1.17.1/jersey-core-1.17.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/com/sun/jersey/contribs/jersey-guice/1.17.1/jersey-guice-1.17.1.jar" sourcepath="M2_REPO/com/sun/jersey/contribs/jersey-guice/1.17.1/jersey-guice-1.17.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/com/sun/jersey/contribs/jersey-guice/1.17.1/jersey-guice-1.17.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/com/sun/jersey/jersey-servlet/1.17.1/jersey-servlet-1.17.1.jar" sourcepath="M2_REPO/com/sun/jersey/jersey-servlet/1.17.1/jersey-servlet-1.17.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/com/sun/jersey/jersey-servlet/1.17.1/jersey-servlet-1.17.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/com/sun/jersey/jersey-json/1.17.1/jersey-json-1.17.1.jar" sourcepath="M2_REPO/com/sun/jersey/jersey-json/1.17.1/jersey-json-1.17.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/com/sun/jersey/jersey-json/1.17.1/jersey-json-1.17.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar" sourcepath="M2_REPO/org/codehaus/jettison/jettison/1.1/jettison-1.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/codehaus/jettison/jettison/1.1/jettison-1.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1.jar" sourcepath="M2_REPO/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-jaxrs/1.9.2/jackson-jaxrs-1.9.2.jar" sourcepath="M2_REPO/org/codehaus/jackson/jackson-jaxrs/1.9.2/jackson-jaxrs-1.9.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-xc/1.9.2/jackson-xc-1.9.2.jar" sourcepath="M2_REPO/org/codehaus/jackson/jackson-xc/1.9.2/jackson-xc-1.9.2-sources.jar"/>
+</classpath>

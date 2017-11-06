@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar" sourcepath="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="src" path="/guacamole-common"/>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar" sourcepath="M2_REPO/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7.jar" sourcepath="M2_REPO/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+</classpath>

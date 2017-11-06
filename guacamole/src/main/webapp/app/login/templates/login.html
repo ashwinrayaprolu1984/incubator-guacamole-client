@@ -1,4 +1,4 @@
-<div class="login-ui" ng-class="{error: loginError, continuation: isContinuation(), initial: !isContinuation()}" >
+<div class="login-ui" ng-class="{error: loginError, continuation: isContinuation(), initial: !isContinuation()}"  data-ng-init="init()" >
 
     <!-- Login error message -->
     <p class="login-error" translate="{{loginError.key}}"

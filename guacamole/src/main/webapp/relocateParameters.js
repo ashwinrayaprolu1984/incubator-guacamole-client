@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-
+if(top.location.href===self.location.href){self.location.href = 'blank.html'};
 /**
  * Reformats the URL of the current page such that normal query parameters will
  * be received by AngularJS. If possible, this reformatting operation will be

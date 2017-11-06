@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="var" path="M2_REPO/javax/inject/javax.inject/1/javax.inject-1.jar" sourcepath="M2_REPO/javax/inject/javax.inject/1/javax.inject-1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/javax/inject/javax.inject/1/javax.inject-1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/guacamole/guacamole-ext/0.9.13-incubating/guacamole-ext-0.9.13-incubating.jar" sourcepath="M2_REPO/org/apache/guacamole/guacamole-ext/0.9.13-incubating/guacamole-ext-0.9.13-incubating-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/apache/guacamole/guacamole-ext/0.9.13-incubating/guacamole-ext-0.9.13-incubating-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/guacamole/guacamole-common/0.9.13-incubating/guacamole-common-0.9.13-incubating.jar" sourcepath="M2_REPO/org/apache/guacamole/guacamole-common/0.9.13-incubating/guacamole-common-0.9.13-incubating-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/apache/guacamole/guacamole-common/0.9.13-incubating/guacamole-common-0.9.13-incubating-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar" sourcepath="M2_REPO/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.jar" sourcepath="M2_REPO/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.jar" sourcepath="M2_REPO/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2-sources.jar"/>
+  <classpathentry kind="src" path="/guacamole-auth-jdbc-base"/>
+  <classpathentry kind="var" path="M2_REPO/org/mybatis/mybatis/3.2.8/mybatis-3.2.8.jar" sourcepath="M2_REPO/org/mybatis/mybatis/3.2.8/mybatis-3.2.8-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/mybatis/mybatis/3.2.8/mybatis-3.2.8-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/mybatis/mybatis-guice/3.6/mybatis-guice-3.6.jar" sourcepath="M2_REPO/org/mybatis/mybatis-guice/3.6/mybatis-guice-3.6-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/org/mybatis/mybatis-guice/3.6/mybatis-guice-3.6-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/com/google/inject/guice/3.0/guice-3.0.jar" sourcepath="M2_REPO/com/google/inject/guice/3.0/guice-3.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/com/google/inject/guice/3.0/guice-3.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" sourcepath="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/inject/extensions/guice-multibindings/3.0/guice-multibindings-3.0.jar" sourcepath="M2_REPO/com/google/inject/extensions/guice-multibindings/3.0/guice-multibindings-3.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/com/google/inject/extensions/guice-multibindings/3.0/guice-multibindings-3.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/com/google/guava/guava/18.0/guava-18.0.jar" sourcepath="M2_REPO/com/google/guava/guava/18.0/guava-18.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/com/google/guava/guava/18.0/guava-18.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" sourcepath="M2_REPO/commons-codec/commons-codec/1.4/commons-codec-1.4-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/ashwinrayaprolu/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/mysql/mysql-connector-java/5.0.4/mysql-connector-java-5.0.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/bouncycastle/bcprov-jdk16/140/bcprov-jdk16-140.jar"/>
+</classpath>
